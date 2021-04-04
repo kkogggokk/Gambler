@@ -1,5 +1,6 @@
 # Gambler
 ## Pockemon datacheck
+https://www.kaggle.com/terminus7/pokemon-challenge/discussion/40057
 ```
 포켓몬 데이터를 통해서 두 포켓몬의 배틀 결과를 예측하자
 ```
