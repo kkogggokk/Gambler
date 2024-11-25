@@ -7,7 +7,7 @@
 | 주제 | 포켓몬스터의 승률 예측 모델 설계  |
 | 내용 | 포켓몬 대결 데이터를 기반으로 승률이 높은 특성을 분석하여 95% 이상의 예측 정확도를 목표로 모델을 설계하였습니다. 모델은 KNN, SVM, Decision Tree, Random Forest, XGBoost 을 사용하였습니다. 기법으로 Feature Engineering과 Ensemble 을 통해 650회 이상 실험하여 최적 조합 도출했습니다. 최종적으로 0.9768 정확도를 달성했습니다. |
 | 결과 | 최고 정확도: 0.9768(XGBoost) |
-| 기술스택 | - 데이터 처리 및 분석: Pandas, Numpy, Seaborn, Matplotlib     - 엔지니어링: Label Encoding, Feature Engineering    - 모델링: : KNN, SVM, Decision Tree, Random Forest, XGBoost |
+| 기술스택 | - 데이터 처리 및 분석: Pandas, Numpy, Seaborn, Matplotlib<br>- 엔지니어링: Label Encoding, Feature Engineering<br>- 모델링: : KNN, SVM, Decision Tree, Random Forest, XGBoost |
 | 코드URL | [포켓몬스터 승률 예측 프로젝트](https://github.com/kkogggokk/Gambler)|
 
 # 🔹 1.Data Check
@@ -82,10 +82,10 @@
 | 항목 | 내용 |
 | --- | --- |
 | 유효한 필드 | `Speed`, `Attack`, `Defense`, `Generation`, `Type`, `legendary`  |
+
 📍[총 650회 실험](https://docs.google.com/spreadsheets/d/1TMqu_tlFWc4r4BlzY15iZgir4Izm0YE_IvIjJaCEfoM/edit?gid=305708277#gid=305708277)
 
 ## STEP3. **Ensemble(앙상블)**
-
 ```jsx
 - Precision / Recall
     - ROC-AUC
